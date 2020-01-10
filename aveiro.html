@@ -1,40 +1,27 @@
 <html>
- <head>
+  <head>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Belem</title>
+  <title>Venice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="page.css">
   <script src="nl-SK-A-180.js"></script>
-  <style>
-         
-   p{
+  
+<style>
+        .p1{
        font-size: 20px;
        text-align: center;
        margin: 0;
+       font-family: 'Inconsolata', monospace;
        
     
    }
 
-    img{
-      max-width: 100%;
-      max-height: 30rem;
-      margin: 1rem;
-      max-zoom: 50%;
-     }
-  
-
-
-   h1{
-        font-size: 40px;
-        text-align: center;
-        margin: 0;
-        font-family: 'Inconsolata', monospace;
-
-      }
     
-   body {
+     
+    body {
+        font-size: 30px;
         margin: 0;
         padding: 2rem 0;
         width: 100%;
@@ -42,8 +29,24 @@
         font-family: 'Inconsolata', monospace;
         text-align: center;
        }  
+      
+      p{
+        font-size: 20px;
+        text-align: center;
+        margin: 2;
+        border-radius: 1px;
+        font: inherit;
+      }
 
-       button {
+      label {
+        font-size: 20px;
+        text-align: center;
+        margin: 1;
+        font:italic;
+      
+      }
+
+      button {
         font-family:Arial, Helvetica, sans-serif;
         border: solid 1px transparent;
         border-radius:1px;
@@ -55,20 +58,23 @@
 
 
  </style>
+
+
  </head>
 <body>
-
   <main>
     <section id="content">
-      <p>"Julia's Mobile Museum App"</p>
-      <h1>The amazing Pastel of Belem!</h1>
-      <img src="/home/julia/Desktop/belem.jpeg">
-
+      <p1>"Julia's Mobile Museum App"</p1>
+      <h1>*The Venice of Portugal*</h1>
+      <img src="/home/julia/Desktop/aveiro.jpeg">
     </section>
+    <section id="comments">
+      <h2>Comments</h2>
+    </section>
+  
 
-
-
-      <form onsubmit="submitComment(); return false">
+  
+    <form onsubmit="submitComment(); return false">
       <div class="formSection">
         <label for="name">Name:</label>
         <input type="text" id="name">
@@ -81,6 +87,9 @@
         <button type="default">Post your comment</button>
       </div>
     </form>
-   </main>
-  </body>
-  </html>
+    </main>
+    </body>
+    </html>
+
+
+
